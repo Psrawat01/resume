@@ -632,8 +632,9 @@ body::selection {
   width: 40%;
   margin-left: 550px;
   position: relative;
-  top: -100px;
+  top: -150px;
  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align:center;
 
   
 }
