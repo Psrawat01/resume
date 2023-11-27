@@ -636,6 +636,13 @@ body::selection {
 
   
 }
+#project-content2{
+  diplay:flex;
+  width: 40%;
+  margin-left: 550px;
+  position: relative;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 
 
 /* ----------FOOTER---------- */
