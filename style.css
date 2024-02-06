@@ -639,7 +639,7 @@ body::selection {
 #project-content2{
   display: flex;
   width: 40%;
-  top: -170px;
+/*   top: -170px; */
   /* margin-bottom: 50%; */
   position: relative;
   justify-content: center;
