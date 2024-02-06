@@ -146,6 +146,7 @@ body::selection {
 .navbar-title {
   display: flex;
   align-items: center;
+  
 }
 
 .title-first-name {
@@ -562,7 +563,7 @@ body::selection {
 }
 
 .project-card img {
-  position: relative;
+  position: sticky;
 }
 
 .project-img-1 {
@@ -594,7 +595,7 @@ body::selection {
 }
 
 .project-img-3 {
- display:block;
+  display:block;
   width: 30vw;
   margin-top: 10px;
   top: 80px;
@@ -626,7 +627,6 @@ body::selection {
   line-height: 26px;
 }
 #project-content1{
-
   display: flex;
   width: 40%;
   margin-left: 50%;
@@ -634,7 +634,6 @@ body::selection {
   top: -150px;
  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  text-align:center;
-  
   
 }
 #project-content2{
@@ -647,6 +646,8 @@ body::selection {
  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  text-align: center;
 }
+
+
 
 /* ----------FOOTER---------- */
 #footer {
@@ -835,7 +836,7 @@ body::selection {
   color: #00acee;
 }
 
-.social-icons a:nth-child(6) i:hover {
+/* .social-icons a:nth-child(5) i:hover { 
   color: transparent;
   background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
@@ -844,7 +845,7 @@ body::selection {
   background-clip: text;
   -webkit-background-clip: text;
 }
-
+*/
 .social-icons a:nth-child(5) i:hover {
   color: #0c9736;
 }
