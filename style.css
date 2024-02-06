@@ -239,9 +239,9 @@ body::selection {
   align-items: center;
   justify-content: space-around;
   padding: 100px 0 0 100px;
-  margin-top: 10vh;
+  margin-top: 1vh;
   margin-bottom: 10vh;
-  max-height: 100vh;
+  max-height: 80vh;
 }
 
 .developer-intro {
@@ -580,9 +580,9 @@ body::selection {
 
 .project-img-2 {
   display:relative;
-  width: 40vw;
-  top: 50px;
-  left: 75px;
+  width: 30vw;
+  top: 80px;
+  margin-left: 60%;
   border-radius: 10px;
   box-shadow: -5px -5px 10px #00000040;
   transition: 0.5s ease;
@@ -594,14 +594,15 @@ body::selection {
 }
 
 .project-img-3 {
-  display:block;
-  width: 40vw;
-  top: 50px;
+ display:block;
+  width: 30vw;
+  margin-top: 10px;
+  top: 80px;
   left: 75px;
   border-radius: 10px;
   box-shadow: -5px -5px 10px #00000040;
   transition: 0.5s ease;
-  margin-bottom: 30px;
+  
   
 }
 
@@ -628,21 +629,23 @@ body::selection {
 
   display: flex;
   width: 40%;
-  margin-left: 550px;
+  margin-left: 50%;
   position: relative;
   top: -150px;
  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align:center;
-
+ text-align:center;
+  
   
 }
 #project-content2{
-  diplay:flex;
+  display: flex;
   width: 40%;
-  margin-left: 550px;
+  top: -170px;
+  /* margin-bottom: 50%; */
   position: relative;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
+  justify-content: center;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-align: center;
 }
 
 /* ----------FOOTER---------- */
@@ -832,7 +835,7 @@ body::selection {
   color: #00acee;
 }
 
-.social-icons a:nth-child(5) i:hover {
+.social-icons a:nth-child(6) i:hover {
   color: transparent;
   background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
@@ -842,7 +845,7 @@ body::selection {
   -webkit-background-clip: text;
 }
 
-.social-icons a:nth-child(6) i:hover {
+.social-icons a:nth-child(5) i:hover {
   color: #0c9736;
 }
 
